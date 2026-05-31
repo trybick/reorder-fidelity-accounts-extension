@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "Fidelity Account Order",
-  "description": "Manually reorder accounts in the Fidelity portfolio account selector.",
+  "name": "Reorder Fidelity Accounts",
+  "description": "Control the order of accounts in the Fidelity portfolio page.",
   "version": "1.0.0",
   "permissions": ["activeTab", "storage"],
   "host_permissions": ["https://fidelity.com/*", "https://*.fidelity.com/*"],
@@ -12,7 +12,7 @@
     "128": "assets/icon-128.png"
   },
   "action": {
-    "default_title": "Fidelity Account Order",
+    "default_title": "Reorder Fidelity Accounts",
     "default_popup": "src/popup.html",
     "default_icon": {
       "16": "assets/icon-16.png",

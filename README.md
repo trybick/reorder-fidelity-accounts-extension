@@ -25,6 +25,6 @@ The extension currently targets:
 
 - Account list: `.acct-selector__acct-list`
 - Account groups: `.acct-selector__group`
-- Account group labels: `.acct-selector__group-name`
+- Account group labels: `.acct-selector__group-name`, `[data-testid*='accounts-selector-group-title']`
 
-If Fidelity changes the page markup, update those selectors in `src/content.js`.
+If Fidelity changes the page markup, update those selectors in `src/fidelity-dom.js`.
