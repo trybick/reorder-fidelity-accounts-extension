@@ -1,4 +1,6 @@
-// This file holds shared helpers used by both the content script and the popup.
+/**
+ * This file holds shared helpers used by both the content script and the popup.
+ */
 
 const STORAGE_KEY = "accountOrder";
 

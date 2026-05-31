@@ -1,11 +1,18 @@
-// This file isolates everything that depends on Fidelity's page markup: the CSS
-// selectors plus related helpers.
+/**
+ * This file isolates everything that depends on Fidelity's page markup: the CSS
+ * selectors plus related helpers.
+ */
 
 const DOM_SELECTORS = {
+  // Container element holding all account groups.
   accountList: ".acct-selector__acct-list",
+  // A single account group inside the list; these are the reorderable items.
   accountGroup: ".acct-selector__group",
+  // Candidate selectors for the name text inside an account group, tried in order.
   accountGroupLabel: [
+    // Primary: expected location of the account group name.
     ".acct-selector__group-name",
+    // Backup selector: used if Fidelity drops/renames the BEM class above.
     "[data-testid*='accounts-selector-group-title']"
   ]
 };
