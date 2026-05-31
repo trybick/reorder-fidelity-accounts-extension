@@ -3,8 +3,8 @@
   "name": "Reorder Fidelity Accounts",
   "description": "Control the order of accounts in the Fidelity portfolio page.",
   "version": "1.0.0",
-  "permissions": ["activeTab", "storage"],
-  "host_permissions": ["https://fidelity.com/*", "https://*.fidelity.com/*"],
+  "permissions": ["storage"],
+  "host_permissions": ["*://*.fidelity.com/*"],
   "icons": {
     "16": "assets/icon-16.png",
     "32": "assets/icon-32.png",
@@ -23,7 +23,7 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://fidelity.com/*", "https://*.fidelity.com/*"],
+      "matches": ["*://*.fidelity.com/*"],
       "js": ["src/utils.js", "src/dom-selectors.js", "src/content.js"],
       "run_at": "document_start"
     }
