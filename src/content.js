@@ -150,12 +150,14 @@
   };
 
   const scheduleApplyOrder = () => {
-    if (isApplying) {
+    if (isApplying || applyTimer) {
       return;
     }
 
-    window.clearTimeout(applyTimer);
-    applyTimer = window.setTimeout(() => applyOrder(), 150);
+    applyTimer = window.requestAnimationFrame(() => {
+      applyTimer = 0;
+      applyOrder();
+    });
   };
 
   const startObserver = () => {
@@ -187,10 +189,11 @@
     return false;
   });
 
+  startObserver();
+
   chrome.storage.sync.get([STORAGE_KEY], (items) => {
     savedOrder = normalizeOrder(items[STORAGE_KEY]);
     applyOrder(savedOrder);
-    startObserver();
   });
 
   chrome.storage.onChanged.addListener((changes, areaName) => {

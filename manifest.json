@@ -25,7 +25,7 @@
     {
       "matches": ["https://fidelity.com/*", "https://*.fidelity.com/*"],
       "js": ["src/utils.js", "src/fidelity-dom.js", "src/content.js"],
-      "run_at": "document_idle"
+      "run_at": "document_start"
     }
   ]
 }
