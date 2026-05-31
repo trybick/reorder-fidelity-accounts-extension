@@ -1,8 +1,12 @@
-# Reorder Fidelity Accounts Extension
+# Portfolio Account Sorter
 
 Do you wish your Fidelity accounts showed up in a different order? This free Chrome
 extension lets you drag your account groups into the order you want, and keeps them
 that way every time you visit your Fidelity portfolio.
+
+> **Not affiliated with Fidelity.** This is an independent, unofficial extension. It
+> is not authorized, endorsed, sponsored by, or produced by Fidelity Investments.
+> "Fidelity" is referenced only to describe the website this extension works with.
 
 It only changes how things *look* in your own browser. It never touches your money,
 your login, or anything on Fidelity's side.
@@ -23,7 +27,7 @@ your login, or anything on Fidelity's side.
 5. Find and select the folder named `fidelity-account-order-extension` (the folder
    you unzipped in step 1), then click **Select**.
 
-That's it. You should now see "Fidelity Account Group Order" in your list of
+That's it. You should now see "Portfolio Account Sorter" in your list of
 extensions.
 
 > Tip: Click the little puzzle-piece icon near the top-right of Chrome and pin the
