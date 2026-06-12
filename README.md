@@ -5,7 +5,7 @@ extension lets you drag your account groups into the order you want, and keeps t
 that way every time you visit your Fidelity portfolio.
 
 <p align="center">
-  <img src="screenshots/screenshot-store.png" alt="Portfolio Controller popup with reorderable account groups" width="358">
+  <img src="screenshots/screenshot-readme.png" alt="Portfolio Controller popup with reorderable account groups" width="358">
 </p>
 
 > **Not affiliated with Fidelity.** This is an independent, unofficial extension. It
@@ -23,7 +23,7 @@ else.
 
 ## Step 1: Add the extension to Chrome
 
-Install the extension from the Chrome Web Store page: **[Download link coming soon](https://chromewebstore.google.com/PLACEHOLDER)**.
+Install the extension from the  **[Chrome Web Store page](https://chromewebstore.google.com/detail/portfolio-controller/ohnbjeodhoebnckjgaenmdgibeccifbo)**.
 
 ## Step 2: Put your accounts in the order you like
 
@@ -33,8 +33,7 @@ Install the extension from the Chrome Web Store page: **[Download link coming so
    - Use the **Up** and **Dn** buttons next to each group.
 3. Click **Save**.
 
-Your accounts will now appear in your chosen order. Chrome remembers your order, so
-it stays the same the next time you open Fidelity.
+Your accounts will now appear in your chosen order.
 
 ## Good to know
 
